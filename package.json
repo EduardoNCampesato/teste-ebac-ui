@@ -19,5 +19,10 @@
   "homepage": "https://github.com/EduardoNCampesato/teste-ebac-ui#readme",
   "devDependencies": {
     "cypress": "^9.5.2"
+  },
+  "dependencies": {
+    "faker": "^6.6.6",
+    "faker-br": "^0.4.1",
+    "faker-generator": "^1.0.1"
   }
 }
