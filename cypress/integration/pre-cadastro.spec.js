@@ -9,7 +9,7 @@ context('Funcionalidade pré cadastro', () => {
         cy.visit('http://lojaebac.ebaconline.art.br/minha-conta/')
     }); 
 
-    it.only('Deve efetuar o pré cadastro com sucesso', () => {
+    it('Deve efetuar o pré cadastro com sucesso', () => {
         
         cy.get('#reg_email').type(faker.internet.email())
         cy.get('#reg_password').type(faker.internet.password())
